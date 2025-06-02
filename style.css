@@ -146,6 +146,9 @@ body {
   flex-direction: column;
   padding: 1.5rem;
   gap: 1.5rem;
+  right: -16rem;
+
+  transition: 0.7s;
 }
 
 body.menu-open::before{
@@ -168,4 +171,8 @@ body.menu-open::before{
   color: var(--dark-blue);
   font-size: 1.125rem;
   line-height: 1.5rem;
+}
+
+.header-mobile nav.abrir {
+  right: 0;
 }
