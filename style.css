@@ -259,4 +259,9 @@ header .desktop {
   .terceira-secao h2:hover {
     color: var(--vermillion);
   }
+
+  .terceira-secao a {
+    text-decoration: none;
+    color: var(--almost-white);
+  }
 }
